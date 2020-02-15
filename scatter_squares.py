@@ -5,7 +5,10 @@ import matplotlib.pyplot as plt
 x_values = list(range(1, 51))
 y_values = [x ** 2 for x in x_values]
 
-plt.scatter(x_values, y_values, edgecolors='none', color='green', s=40)
+# wlasny kolor
+# plt.scatter(x_values, y_values, edgecolors='none', color=(0, 0, 0.5), s=40)
+# mapa kolorow
+plt.scatter(x_values, y_values, edgecolors='none', c=y_values, cmap=plt.cm.Greens, s=40)
 
 # tytul wykresu i osi
 plt.title("Kwadraty liczb", fontsize=20)
