@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-from random_walk import RandomWalk
+from basic.random_walk import RandomWalk
 
 # tworzenie nowego bladzenia losowego dopoki program aktywny
 while True:

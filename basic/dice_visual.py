@@ -1,6 +1,6 @@
 import pygal
 
-from dice import Dice
+from basic.dice import Dice
 
 # utworzenie kosci typu D6
 dice = Dice()
