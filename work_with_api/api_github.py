@@ -58,6 +58,7 @@ for repo_dict in repo_dicts:
     stars_description = {
         'value': repo_dict['stargazers_count'],
         'label': str(repo_dict['description']),
+        'xlink': repo_dict['html_url'],
     }
     stars_description_dicts.append(stars_description)
 

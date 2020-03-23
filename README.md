@@ -8,5 +8,5 @@ czyli biblioteka matematyczna przeznaczona do tworzenia wykresów.
 
 Użyty został również pakiet [Pygal](http://www.pygal.org/en/stable/), za pomocą którego
 można tworzyć wizualizacje interaktywne. 
- ![Populacja na świecie 2010](format_json/world_population.svg)
+ ![Repozytoria z największą liczbą gwiazdek dla projetków w Pythonie w serwisie GitHub](work_with_api/python_repos.svg)
  
